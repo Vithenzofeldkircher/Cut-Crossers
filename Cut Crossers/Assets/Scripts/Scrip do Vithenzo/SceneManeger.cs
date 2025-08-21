@@ -19,12 +19,10 @@ public class SceneManeger : MonoBehaviour
     }
     public void TrocaDeCena1()
     {
-        SceneManager.LoadScene("LORE1");
-    }
-
-    public void TrocaDeCena2()
-    {
         SceneManager.LoadScene("Creditos");
     }
-
+    public void TrocaDeCena2()
+    {
+        SceneManager.LoadScene("Game");
+    }
 }
