@@ -13,15 +13,18 @@ public class SceneManeger : MonoBehaviour
     {
         
     }
-
     public void TrocaDeCena()
+    {
+        SceneManager.LoadScene("Start");
+    }
+    public void TrocaDeCena1()
     {
         SceneManager.LoadScene("LORE1");
     }
 
-    public void TrocaDeCena1()
+    public void TrocaDeCena2()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Creditos");
     }
 
 }
