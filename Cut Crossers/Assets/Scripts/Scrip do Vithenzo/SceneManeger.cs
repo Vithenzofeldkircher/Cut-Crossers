@@ -25,4 +25,9 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void TrocaDeCena3()
+    {
+        SceneManager.LoadScene("Upgrades");
+    }
 }
