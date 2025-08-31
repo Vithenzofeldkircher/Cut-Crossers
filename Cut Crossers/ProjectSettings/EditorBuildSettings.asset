@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 099f5b6b4703bc34d9aa405b386fd6fd
   - enabled: 1
+    path: Assets/Scenes/Lore1.unity
+    guid: 18ec2596d323282458adc26e11bd306b
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: df5b8c6b33248a84c8aa0603b88c1975
   - enabled: 1
     path: Assets/Scenes/Upgrades.unity
     guid: 007aaabd88d1b2d4c96621541c065f9d
+  - enabled: 1
+    path: Assets/Scenes/Lore2.unity
+    guid: d1828d04e725b5849b26cccf7dba868c
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 213795bb99809ca40bda3a7f228dae39

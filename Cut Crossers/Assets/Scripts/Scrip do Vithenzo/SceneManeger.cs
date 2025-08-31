@@ -30,4 +30,9 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene("Upgrades");
     }
+
+    public void trocadecena4()
+    {
+        SceneManager.LoadScene("Lore2");
+    }
 }

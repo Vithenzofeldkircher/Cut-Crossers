@@ -1,10 +1,12 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class ClickMorte : MonoBehaviour
 {
         
     [SerializeField]  TMP_Text CountText;
+    public int mortesParaVitoria = 850;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +24,11 @@ public class ClickMorte : MonoBehaviour
     {
         GameManager.instance.TotalMortes += GameManager.instance.valorDoClick;
         AtualizarTexto();
+
+        if(GameManager.instance.TotalMortes >= mortesParaVitoria)
+        {
+            SceneManager.LoadScene("Lore2");
+        }
     }
 
     private void AtualizarTexto()
