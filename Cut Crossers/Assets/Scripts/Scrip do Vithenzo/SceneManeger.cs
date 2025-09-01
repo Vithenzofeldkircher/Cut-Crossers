@@ -35,4 +35,9 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene("Lore2");
     }
+
+    public void trocadecena5()
+    {
+        SceneManager.LoadScene("Lore1");
+    }
 }
