@@ -25,4 +25,19 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void TrocaDeCena3()
+    {
+        SceneManager.LoadScene("Upgrades");
+    }
+
+    public void trocadecena4()
+    {
+        SceneManager.LoadScene("Lore2");
+    }
+
+    public void trocadecena5()
+    {
+        SceneManager.LoadScene("Lore1");
+    }
 }
